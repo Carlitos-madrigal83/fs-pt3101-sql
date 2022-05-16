@@ -4,8 +4,9 @@
   "description": "1. Comprueba que tienes corriendo los contenedores de `postgres` y `adminer` a través de `docker-compose`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
